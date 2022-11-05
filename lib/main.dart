@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 //import 'package:fluttertoast/fluttertoast.dart';
 
+<<<<<<< HEAD
 void main() => runApp(const SnackBarDemo());
 
 class SnackBarDemo extends StatelessWidget {
@@ -18,6 +19,10 @@ class SnackBarDemo extends StatelessWidget {
       ),
     );
   }
+=======
+void main(){
+  runapp(0);
+>>>>>>> button/master
 }
 
 class SnackBarPage extends StatelessWidget {
