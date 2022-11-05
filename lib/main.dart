@@ -98,6 +98,7 @@ class SnackBarPage extends StatelessWidget {
 
           const SizedBox(height: 20,),
 
+
           IconButton(
             iconSize: 50,
             onPressed: (){final snackBar = SnackBar(
@@ -177,6 +178,7 @@ final ButtonStyle raisedButtonStyle = ElevatedButton.styleFrom(        //1
 
   ),
 );
+
 
 final ButtonStyle raisedButtonStyleicon = ElevatedButton.styleFrom(      //6
   onPrimary: Colors.black87,
