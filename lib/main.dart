@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 //import 'package:fluttertoast/fluttertoast.dart';
 
+
 void main() => runApp(const SnackBarDemo());
 
 class SnackBarDemo extends StatelessWidget {
@@ -9,10 +10,10 @@ class SnackBarDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Button 2',
+      title: 'SnackBar Demo',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Flutter Button 2'),
+          title: const Text('SnackBar Demo'),
         ),
         body: const SnackBarPage(),
       ),
